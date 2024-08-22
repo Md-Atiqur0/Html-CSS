@@ -1,0 +1,98 @@
+/* Google font of poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: Center;
+    justify-content: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-color: #f4f4f4;
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-image: url(background_2.jpg);
+    background-size: cover;
+}
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.image .profile-image{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+.profile-card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500px;
+}
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400px;
+}
+.contact-button{
+    margin-bottom: 5px;
+}
+.contact-button .call{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50%;
+    color: white;
+    border: solid blue;
+    background-color: rgb(120, 120, 255);
+}
+.contact-button .massage{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50%;
+    color: white;
+    border: solid blue;
+    background-color: rgb(120, 120, 255);
+}
+.profile-card .midea-buttons{
+    display: flex;
+    align-items: center;
+}
+.midea-buttons .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #4070f4;
+    text-decoration: none;
+}
